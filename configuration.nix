@@ -22,7 +22,7 @@
 
   users.users.coda = {
     isNormalUser = true;
-    extraGroups = [ "network manager" "wheel" ];
+    extraGroups = [ "network manager" "wheel" "docker" ];
     packages = with pkgs; [
       go 
       nodejs_22
@@ -37,6 +37,9 @@
   services.openssh.enable = true;
 
   services.vscode-server.enable = true;
+
+  # enable docker
+  virtualisation.docker.enable = true;
 
   # does some funky stuff, remove if problems later
   services.vscode-server.enableFHS = true;

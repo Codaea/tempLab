@@ -6,6 +6,7 @@ done with nixos-anywhere
 
 TODO: 
 - [ ] ADD SWAP TO DISK_CONFIG
+- [ ] ADD CODER + docker
 
 steps to achive
 1. load nixos onto machine

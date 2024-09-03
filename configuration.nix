@@ -44,6 +44,8 @@
   environment.systemPackages = with pkgs; [
     git
     curl
+    coder
+    docker_27
   ];
 
   system.stateVersion = "24.05";

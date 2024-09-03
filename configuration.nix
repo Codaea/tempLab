@@ -35,6 +35,12 @@
 
   services.vscode-server.enable = true;
 
+  # does some funky stuff, remove if problems later
+  services.vscode-server.enableFHS = true;
+
+
+  services.tailscale.enable = true;
+
   environment.systemPackages = with pkgs; [
     git
     curl

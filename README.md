@@ -4,6 +4,9 @@ currently without a lab, and needed a temporary solution to get up and running.
 
 done with nixos-anywhere 
 
+TODO: 
+- [ ] ADD SWAP TO DISK_CONFIG
+
 steps to achive
 1. load nixos onto machine
 2. change password for root user

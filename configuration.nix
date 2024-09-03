@@ -33,6 +33,8 @@
 
   services.openssh.enable = true;
 
+  services.vscode-server.enable = true;
+
   environment.systemPackages = with pkgs; [
     git
     curl

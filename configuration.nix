@@ -49,6 +49,7 @@
     curl
     coder
     docker_27
+    docker-compose
   ];
 
   system.stateVersion = "24.05";

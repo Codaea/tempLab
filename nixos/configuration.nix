@@ -21,6 +21,8 @@
     isNormalUser = true;
     extraGroups = [ "network manager" "wheel" ];
     packages = with pkgs; [
+      go 
+      nodejs_22
     ];
     hashedPassword = "$y$j9T$aD6CgpJzBJjWWgb4dD0AU1$zbx2UIAANWe7PdqBq8WYiJKPncKxoU/VLfzDPqVioo1";
     openssh.authorizedKeys.keys = [

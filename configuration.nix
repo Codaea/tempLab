@@ -3,6 +3,9 @@
     ./hardware-configuration.nix
     ./disk-config.nix
   ];
+
+  # coderd -> terraform is unfree
+  nixpkgs.config.allowUnfree = true;
   
   # Bootloader
   boot.loader.systemd-boot.enable = true;
